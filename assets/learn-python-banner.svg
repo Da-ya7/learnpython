@@ -1,0 +1,37 @@
+<svg width="1400" height="420" viewBox="0 0 1400 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="160" y1="30" x2="1220" y2="390" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1020"/>
+      <stop offset="0.45" stop-color="#0F3D66"/>
+      <stop offset="1" stop-color="#1C7C54"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="330" y1="92" x2="1090" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7DD3FC" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#34D399" stop-opacity="0.9"/>
+    </linearGradient>
+    <filter id="blur" x="0" y="0" width="1400" height="420" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="36"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="420" rx="28" fill="url(#bg)"/>
+  <circle cx="315" cy="110" r="120" fill="#38BDF8" fill-opacity="0.18" filter="url(#blur)"/>
+  <circle cx="1130" cy="300" r="160" fill="#4ADE80" fill-opacity="0.18" filter="url(#blur)"/>
+  <path d="M260 300C410 180 520 160 650 186C760 208 835 258 944 250C1068 241 1146 152 1214 146" stroke="url(#glow)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M286 312C442 164 587 140 731 172C853 199 910 260 1011 258C1113 255 1154 195 1198 181" stroke="#56F2D0" stroke-opacity="0.28" stroke-width="3" stroke-linecap="round"/>
+  <g opacity="0.96">
+    <rect x="110" y="90" width="208" height="42" rx="21" fill="#0F172A" fill-opacity="0.48" stroke="#7DD3FC" stroke-opacity="0.55"/>
+    <text x="214" y="118" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#E0F2FE" letter-spacing="1.2">LEARN PYTHON</text>
+    <text x="110" y="205" font-family="Segoe UI, Arial, sans-serif" font-size="60" font-weight="800" fill="#FFFFFF">Python Roadmap</text>
+    <text x="110" y="252" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="500" fill="#D7F3FF">A beginner-friendly path inspired by roadmap.sh</text>
+  </g>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">
+    <rect x="110" y="292" width="112" height="34" rx="17" fill="#1D4ED8" fill-opacity="0.48" stroke="#93C5FD" stroke-opacity="0.5"/>
+    <text x="166" y="315" text-anchor="middle" fill="#EFF6FF">Syntax</text>
+    <rect x="236" y="292" width="138" height="34" rx="17" fill="#0F766E" fill-opacity="0.45" stroke="#99F6E4" stroke-opacity="0.45"/>
+    <text x="305" y="315" text-anchor="middle" fill="#F0FDFA">Variables</text>
+    <rect x="388" y="292" width="128" height="34" rx="17" fill="#0F172A" fill-opacity="0.42" stroke="#BFDBFE" stroke-opacity="0.45"/>
+    <text x="452" y="315" text-anchor="middle" fill="#F8FAFC">Conditionals</text>
+    <rect x="530" y="292" width="126" height="34" rx="17" fill="#14532D" fill-opacity="0.45" stroke="#86EFAC" stroke-opacity="0.45"/>
+    <text x="593" y="315" text-anchor="middle" fill="#F0FDF4">Casting</text>
+  </g>
+</svg>
