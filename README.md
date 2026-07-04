@@ -4,10 +4,10 @@
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Roadmap.sh](https://img.shields.io/badge/Roadmap.sh-Python-0EA5E9?logo=roadmap.sh&logoColor=white)](https://roadmap.sh/python)
-[![Lessons](https://img.shields.io/badge/Lessons-7-22C55E)](#lessons)
+[![Lessons](https://img.shields.io/badge/Lessons-8-22C55E)](#lessons)
 [![License](https://img.shields.io/badge/License-MIT-111827)]()
 
-This repository is a beginner-friendly Python learning path built from the [roadmap.sh Python roadmap](https://roadmap.sh/python). It turns the roadmap into seven short lessons with examples, explanations, and practice-ready notes.
+This repository is a beginner-friendly Python learning path built from the [roadmap.sh Python roadmap](https://roadmap.sh/python). It turns the roadmap into eight short lessons with examples, explanations, and practice-ready notes.
 
 The goal is simple: learn Python step by step, build confidence with the core basics, and keep every lesson small enough to study in one sitting.
 
@@ -20,6 +20,7 @@ The goal is simple: learn Python step by step, build confidence with the core ba
 - Exceptions and error handling
 - Functions, parameters, and built-in functions
 - Loops, `break`, `continue`, and nested repetition
+- Lists, tuples, and sets
 
 ## Lessons
 
@@ -32,6 +33,7 @@ The goal is simple: learn Python step by step, build confidence with the core ba
 | 5 | [Exceptions](lesson5/readme.md) | Markdown guide |
 | 6 | [Functions & Built-in Functions](lesson6/readme.md) | Markdown guide + notebook |
 | 7 | [Loops](lesson7/readme.md) | Markdown guide + notebook |
+| 8 | [Lists, Tuples, and Sets](lesson8/readme.md) | Markdown guide + notebooks |
 
 ## Roadmap Flow
 
@@ -42,6 +44,7 @@ The goal is simple: learn Python step by step, build confidence with the core ba
 5. Read [Lesson 5](lesson5/readme.md) to handle runtime errors with `try`, `except`, `else`, and `finally`.
 6. Finish with [Lesson 6](lesson6/readme.md) to write reusable functions and explore built-in helpers.
 7. Finish with [Lesson 7](lesson7/readme.md) to repeat work with `for` and `while` loops, then control flow with `break` and `continue`.
+8. Finish with [Lesson 8](lesson8/readme.md) to work with collections, including lists, tuples, and sets.
 
 ## Repo Structure
 
@@ -61,9 +64,11 @@ python/
 │   └── readme.md
 ├── lesson5/
 │   └── readme.md
-└── lesson6/
-    └── readme.md
-└── lesson7/
+├── lesson6/
+│   └── readme.md
+├── lesson7/
+│   └── readme.md
+└── lesson8/
     └── readme.md
 ```
 
