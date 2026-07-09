@@ -23,6 +23,7 @@ The goal is simple: learn Python step by step, build confidence with the core ba
 - Lists, tuples, and sets
 - Dictionaries and dictionary methods
 - Strings, slicing, and common string operations
+- Caesar ciphers, character shifting, and a first mini-project
 
 ## Lessons
 
@@ -39,6 +40,12 @@ The goal is simple: learn Python step by step, build confidence with the core ba
 | 9 | [Dictionaries](lesson9/readme.md) | Markdown guide + notebook |
 | 10 | [Working with Strings](lesson10/readme.md) | Markdown guide + notebook |
 
+## Mini Projects
+
+| Project | Topics | Format |
+| --- | --- | --- |
+| [Secret Code Maker (Caesar Cipher)](mini-project_1/readme.md) | Encoding and decoding text, `ord()` and `chr()`, loops, conditionals, functions, user input, and `while True` | Markdown guide + Python script |
+
 ## Roadmap Flow
 
 1. Start with [Lesson 1](lesson1/readme.md) to learn how Python reads code line by line.
@@ -51,6 +58,7 @@ The goal is simple: learn Python step by step, build confidence with the core ba
 8. Finish with [Lesson 8](lesson8/readme.md) to work with collections, including lists, tuples, and sets.
 9. Finish with [Lesson 9](lesson9/readme.md) to store and manage key-value data with dictionaries.
 10. Finish with [Lesson 10](lesson10/readme.md) to work with strings, slicing, formatting, and common text methods.
+11. Move to [Mini Project 1](mini-project_1/readme.md) to build a Caesar cipher that encodes and decodes messages.
 
 ## Repo Structure
 
@@ -88,6 +96,9 @@ python/
     ├── readme.md
     ├── strings.ipynb
     └── task.py
+└── mini-project_1/
+    ├── readme.md
+    └── Secret Code Maker (Caesar Cipher).py
 ```
 
 ## How To Use
